@@ -4,6 +4,9 @@ An example of how to use declaredom as an MVC framework in combination with othe
 
 
 # Examples
+### Note
+src/CounterJsx.re doesnt wor
+
 
 Declaredom is just a declarative markup library and doesn't have all of the bells and whistles that you would get with a full-blown framework like react or vue.
 
@@ -26,7 +29,7 @@ The tools that make this work in addition to declaredom:
 - [@ristostevcev/bs-callbag-of][4] is like [callbag-from-iter][10] except that it's a listenable source, which makes it useful for setting an initial state for event streams.
 - [@ristostevcev/bs-callbag-store][4] is like a [redux][11] store that also provides a callbag stream of the state changes
 
- 
+
 [1]: https://github.com/Risto-Stevcev/bs-callbag-basics
 [2]: https://github.com/Risto-Stevcev/bs-callbag-element
 [3]: https://github.com/Risto-Stevcev/bs-callbag-events
