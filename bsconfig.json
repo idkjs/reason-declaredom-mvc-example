@@ -1,0 +1,23 @@
+{
+  "name": "bs-declaredom-mvc-example",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+
+  "package-specs": {
+    "module": "es6",
+    "in-source": false
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "bs-declaredom",
+    "bs-webapi"
+  ],
+  "warnings": {
+    "error" : "+101+25+8+9+27"
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "refmt": 3
+}

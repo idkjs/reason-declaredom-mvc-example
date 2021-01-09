@@ -1,0 +1,35 @@
+{
+  "name": "bs-declaredom-mvc-example",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "example:counter": "parcel example.html",
+    "example:counter:jsx": "parcel example-jsx.html",
+    "example:counter:simple": "parcel example-simple.html",
+    "start": "npm run example:counter"
+  },
+  "keywords": [
+    "BuckleScript",
+    "reason"
+  ],
+  "author": "Risto Stevcev",
+  "license": "MIT",
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "bs-platform": "^8.4.2",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "bs-declaredom": "idkjs/bs-declaredom.git",
+    "bs-webapi": "0.19.1",
+    "callbag-basics": "^4.0.0",
+    "callbag-element": "^2.0.0",
+    "callbag-from-event": "^1.3.0",
+    "callbag-merge": "^3.2.2",
+    "callbag-of": "^2.0.0",
+    "callbag-store": "^2.0.0"
+  }
+}
